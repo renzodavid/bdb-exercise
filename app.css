@@ -1,0 +1,62 @@
+/*Colores primarios*/
+/*Colores secundarios*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i,800,800i");
+.btn-header-container {
+  text-align: center;
+  margin-top: 15px; }
+
+.btn.btn-sm {
+  border-radius: 15px; }
+
+.btn.btn-link {
+  background-color: rgba(255, 255, 255, 0);
+  color: #fff;
+  border: 1px solid #fff; }
+
+.btn-min-size {
+  min-width: 65px; }
+
+.btn.btn-default {
+  background-color: #fff;
+  color: #002c76;
+  border: 1px solid #002c76;
+  border-radius: 25px; }
+
+.btn.btn-primary {
+  background-color: #002c76;
+  color: #fff;
+  border: 1px solid #002c76;
+  border-radius: 25px; }
+
+.btn-container-equal-width .btn {
+  min-width: 140px;
+  margin-right: 10px; }
+
+.btn-container-equal-width .btn:last-child {
+  margin-right: 0px; }
+
+.btn.btn-sticky {
+  border-radius: 0px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 14px; }
+
+@media (min-width: 768px) {
+  .btn.btn-sticky {
+    border-radius: 25px;
+    width: auto;
+    position: static;
+    padding: 6px 12px; } }
+
+body {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif; }
+
+.blue-header {
+  background-image: url("/images/fondo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 20px;
+  margin-bottom: 60px; }

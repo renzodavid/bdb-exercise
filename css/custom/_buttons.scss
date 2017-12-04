@@ -1,0 +1,59 @@
+.btn-header-container{
+    text-align:center;
+    margin-top: 15px;
+}
+.btn.btn-sm{
+    border-radius: 15px;
+}
+
+.btn.btn-link{
+    background-color: rgba(255,255,255,0.0);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-min-size{
+    min-width: 65px;
+}
+
+.btn.btn-default{
+    background-color: #fff;
+    color: $primary;
+    border: 1px solid $primary;
+    border-radius: 25px
+}
+
+.btn.btn-primary{
+    background-color: $primary;
+    color: #fff;
+    border: 1px solid $primary;
+    border-radius: 25px;
+}
+
+.btn-container-equal-width .btn{
+    min-width: 140px;
+    margin-right: 10px;
+}
+
+.btn-container-equal-width .btn:last-child{
+    margin-right: 0px;
+}
+
+.btn.btn-sticky{
+    border-radius: 0px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 14px;
+}
+
+@media (min-width: 768px){
+    .btn.btn-sticky{
+        border-radius: 25px;
+        width: auto;
+        position: static;
+        padding: 6px 12px;
+    }    
+
+}
