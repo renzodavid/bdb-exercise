@@ -9,7 +9,7 @@
   border-radius: 15px; }
 
 .btn.btn-link {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: pink;
   color: #fff;
   border: 1px solid #fff; }
 
@@ -24,7 +24,7 @@
 
 .btn.btn-primary {
   background-color: #002c76;
-  color: #fff;
+  color: white;
   border: 1px solid #002c76;
   border-radius: 25px; }
 
